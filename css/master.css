@@ -14,3 +14,14 @@
     font-family: rf;
     src: url(../font/RobotoFlex-Regular.ttf);
 }
+*{padding: 0;margin: 0;box-sizing: border-box;}
+
+
+.hide{
+    opacity: 0;
+    transform: translate(-50%,-50%) scale(0);
+
+} 
+.ham{
+    z-index: 999999999 !important;
+}
